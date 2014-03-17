@@ -1,0 +1,10 @@
+{
+  "namespace": "blog.avro",
+  "type": "record",
+  "name": "Blog",
+  "fields": [
+    { "name": "title", "type": "string" },
+    { "name": "content", "type": "string" },
+    { "name": "is_published", "type": "boolean", "default": false }
+  ]
+}
